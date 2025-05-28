@@ -1,1 +1,10 @@
+### Descrição do Código
 
+- **HTML Estrutural**: A estrutura básica da linha do tempo é feita com uma `<div class="timeline">`, que contém várias `<div class="event">` para cada evento.
+- **CSS**: 
+    - O `border-left` adiciona uma linha vertical à esquerda para demarcar a linha do tempo.
+    - O `::before` é usado para criar um ponto para cada evento.
+    - Estilizações como `padding`, `border-radius`, e `box-shadow` ajudam a dar uma aparência moderna e limpa aos eventos.
+- **Responsividade**: Este código é responsivo e deve se ajustar a diferentes tamanhos de tela por padrão, já que não tem dimensões fixas.
+
+Agora você pode adicionar, remover ou modificar os eventos conforme necessário. Se tiver mais perguntas ou precisar de mais variações, me avise!
