@@ -1,10 +1,14 @@
-### Descrição do Código
+. **HTML**:
+   - A estrutura inclui uma linha do tempo que exibe eventos significativos relacionados ao planeta e cuidados ambientais, além de um formulário para adicionar novos eventos.
 
-- **HTML Estrutural**: A estrutura básica da linha do tempo é feita com uma `<div class="timeline">`, que contém várias `<div class="event">` para cada evento.
-- **CSS**: 
-    - O `border-left` adiciona uma linha vertical à esquerda para demarcar a linha do tempo.
-    - O `::before` é usado para criar um ponto para cada evento.
-    - Estilizações como `padding`, `border-radius`, e `box-shadow` ajudam a dar uma aparência moderna e limpa aos eventos.
-- **Responsividade**: Este código é responsivo e deve se ajustar a diferentes tamanhos de tela por padrão, já que não tem dimensões fixas.
+2. **CSS**:
+   - O estilo melhora a apresentação, utilizando cores que representam a saúde do planeta (como o verde) e efeitos de hover.
 
-Agora você pode adicionar, remover ou modificar os eventos conforme necessário. Se tiver mais perguntas ou precisar de mais variações, me avise!
+3. **JavaScript**:
+   - A função `addEvent()` permite que o usuário adicione novos eventos à linha do tempo, coletando dados do formulário e atualizando a visualização.
+
+### Como Usar:
+- Copie o código acima e cole-o em um arquivo HTML.
+- Abra o arquivo em um navegador para visualizar a linha do tempo.
+- Você pode adicionar novos eventos preenchendo o formulário disponível abaixo da linha do tempo.
+
