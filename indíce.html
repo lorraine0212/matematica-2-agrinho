@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linha do Tempo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .timeline {
+            position: relative;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 10px;
+            border-left: 4px solid #333;
+            background: #fff;
+        }
+        .event {
+            padding: 10px 20px;
+            background: #f9f9f9;
+            border-radius: 5px;
+            margin: 10px 0;
+            position: relative;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .event::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 15px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #333;
+        }
+        .event h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .event p {
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<div class="timeline">
+    <div class="event">
+        <h3>Evento 1</h3>
+        <p><strong>Data:</strong> 2022-01-01</p>
+        <p>Descrição do evento 1 detalhando suas informações e importância.</p>
+    </div>
+    <div class="event">
+        <h3>Evento 2</h3>
+        <p><strong>Data:</strong> 2022-06-15</p>
+        <p>Descrição do evento 2 com detalhes adicionais e contexto histórico.</p>
+    </div>
+    <div class="event">
+        <h3>Evento 3</h3>
+        <p><strong>Data:</strong> 2023-03-10</p>
+        <p>Descrição do evento 3 enfatizando as suas consequências e relevância.</p>
+    </div>
+</div>
+
+</body>
+</html>
 
