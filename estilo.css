@@ -1,29 +1,45 @@
-### 2. **Uso de Ferramentas Gráficas**
+.cidade {
+    background-image: url('https://example.com/cidade-moderna.jpg');
+    background-size: cover;
+    color: black;
+}
+.desigualdade {
+    background-image: url('https://example.com/desigualdade-social.jpg');
+    background-size: cover;
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+}
 
-- **Canva**: Ótimo para criar gráficos e infográficos. Você pode usar modelos de linha do tempo.
-- **Google Slides**: Outra opção para criar apresentações visualmente atrativas.
-- **Prezi**: Para criar apresentações dinâmicas e interativas.
+.campo {
+    background-image: url('https://example.com/campo-verde.jpg');
+    background-size: cover;
+    color: white;
+}
 
-### 3. **Python para Análise de Dados (opcional)**
+.cidade {
+    background-image: url('https://example.com/cidade-moderna.jpg');
+    background-size: cover;
+    color: black;
+}
 
-Caso você queira fazer uma análise mais profunda, como analisar dados sobre migrações, pode usar Python. Aqui está um exemplo simples:
+.agricultura-urbana {
+    background-image: url('https://example.com/agricultura-urbana.jpg');
+    background-size: cover;
+    color: #333;
+}
 
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
+.desigualdade {
+    background-image: url('https://example.com/desigualdade-social.jpg');
+    background-size: cover;
+    color: white;
+}
 
-# Criando um DataFrame exemplo
-data = {
-    'Ano': [1900, 1950, 2000, 2020],
-    'População Urbana (%)': [10, 30, 50, 82],
-    'População Rural (%)': [90, 70, 50, 18]
-}df = pd.DataFrame(data)
+.comunidade {
+    background-image: url('https://example.com/comunidade.jpg');
+    background-size: cover;
+    color: white;
+}
 
-# Plotando os dados
-plt.plot(df['Ano'], df['População Urbana (%)'], label='Urbana', marker='o')
-plt.plot(df['Ano'], df['População Rural (%)'], label='Rural', marker='o')
-plt.title('Mudança na População Urbana e Rural ao Longo dos Anos')
-plt.xlabel('Ano')
-plt.ylabel('Porcentagem')
-plt.legend()
-plt.show()
+
