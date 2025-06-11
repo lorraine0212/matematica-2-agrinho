@@ -1,14 +1,29 @@
-. **HTML**:
-   - A estrutura inclui uma linha do tempo que exibe eventos significativos relacionados ao planeta e cuidados ambientais, além de um formulário para adicionar novos eventos.
+### 2. **Uso de Ferramentas Gráficas**
 
-2. **CSS**:
-   - O estilo melhora a apresentação, utilizando cores que representam a saúde do planeta (como o verde) e efeitos de hover.
+- **Canva**: Ótimo para criar gráficos e infográficos. Você pode usar modelos de linha do tempo.
+- **Google Slides**: Outra opção para criar apresentações visualmente atrativas.
+- **Prezi**: Para criar apresentações dinâmicas e interativas.
 
-3. **JavaScript**:
-   - A função `addEvent()` permite que o usuário adicione novos eventos à linha do tempo, coletando dados do formulário e atualizando a visualização.
+### 3. **Python para Análise de Dados (opcional)**
 
-### Como Usar:
-- Copie o código acima e cole-o em um arquivo HTML.
-- Abra o arquivo em um navegador para visualizar a linha do tempo.
-- Você pode adicionar novos eventos preenchendo o formulário disponível abaixo da linha do tempo.
+Caso você queira fazer uma análise mais profunda, como analisar dados sobre migrações, pode usar Python. Aqui está um exemplo simples:
 
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Criando um DataFrame exemplo
+data = {
+    'Ano': [1900, 1950, 2000, 2020],
+    'População Urbana (%)': [10, 30, 50, 82],
+    'População Rural (%)': [90, 70, 50, 18]
+}df = pd.DataFrame(data)
+
+# Plotando os dados
+plt.plot(df['Ano'], df['População Urbana (%)'], label='Urbana', marker='o')
+plt.plot(df['Ano'], df['População Rural (%)'], label='Rural', marker='o')
+plt.title('Mudança na População Urbana e Rural ao Longo dos Anos')
+plt.xlabel('Ano')
+plt.ylabel('Porcentagem')
+plt.legend()
+plt.show()
