@@ -1,26 +1,23 @@
-# Conexão entre Campo e Cidade
+#conexão campo e cidade
 
 ## 1. Dimensões Econômicas
 
 - **Fluxos de Recursos**: As cidades dependem dos produtos agrícolas do campo. 
-  - *Sugestão de Imagem*: Imagem do campo, com plantações e árvores.
 
 - **Empreendedorismo Rural**: O desenvolvimento de iniciativas de negócios no campo, como agroindústrias e turismo rural.
 
 ## 2. Cultura e Identidade
 
 - **Preservação Cultural**: A cultura rural pode ser promovida nas cidades.
-  - *Sugestão de Imagem*: Fotos de festivais rurais ou feiras gastronômicas.
 
 - **Migração de Ideias**: A troca cultural enriquece a vida social.
   
 ## 3. Qualidade de Vida e Saúde
 
 - **Segurança Alimentar**: A conexão entre campo e cidade é crucial para garantir acesso a alimentos frescos.
-  - *Sugestão de Imagem*: Imagens de hortas urbanas.
 
 - **Saúde Mental e Bem-Estar**: O contato com a natureza é benéfico.
-  - *Sugestão de Imagem*: Parques urbanos e pessoas interagindo com a natureza.
+Parques urbanos e pessoas interagindo com a natureza.
 
 ## 4. Inovação e Tecnologia
 
